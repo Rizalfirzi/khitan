@@ -12,6 +12,7 @@
     <meta property="og:image:width" content="400">
     <meta property="og:image:height" content="600">
     <meta property="og:image:alt" content="kecil">
+    <link rel="stylesheet" href="animate.min.css">
     <!-- Ganti URL di atas dengan URL situs web Anda -->
     <title>Kiki & Iis Wedding</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -39,17 +40,17 @@
     <section id="hero"
         class="hero w-100 h-100 p-3 mx-auto text-center d-flex justify-content-center align-items-center text-white">
         <main>
-            <h4>Kepada <span>Bapak/Ibu/Saudara/i, </span></h4>
-            <h1>Kiki Khoerudin (Kinoy) & Iis Zaenabiah (Meimey)</h1>
-            <p>Akan melangsungkan resepsi pernikahan dalam:</p>
-            <div class="simply-countdown"></div>
-            <a href="#home" class="btn btn-lg mt-4" onClick="enableScroll()">Lihat Undangan</a>
+            <h4 class="animate__animated animate__fadeIn wow" data-wow-duration="1s" data-wow-delay="0.5s">Kepada <span>Bapak/Ibu/Saudara/i, </span></h4>
+            <h1 class="animate__animated animate__fadeIn wow" data-wow-duration="1s" data-wow-delay="0.5s">Kiki Khoerudin (Kinoy) & Iis Zaenabiah (Meimey)</h1>
+            <p class="animate__animated animate__fadeIn wow" data-wow-duration="1s" data-wow-delay="0.5s">Akan melangsungkan resepsi pernikahan dalam:</p>
+            <div class="simply-countdown animate__animated animate__fadeIn wow" data-wow-duration="1s" data-wow-delay="0.5s"></div>
+            <a href="#home" class="btn btn-lg mt-4 animate__animated animate__fadeIn wow" data-wow-duration="1s" data-wow-delay="0.5s" onClick="enableScroll()">Lihat Undangan</a>
         </main>
 
     </section>
 
     <section id="home" class="home">
-        <div class="container">
+        <div class="container animate__animated animate__zoomIn wow">
             <div class="row justify-content-center">
                 <div class="col-md-8 text-center">
                     <h2>Acara Pernikahan</h2>
@@ -92,12 +93,12 @@
 
 
     <section id="info" class="info">
-        <div class="container">
+        <div class="container ">
             <center>
                 <h2>Informasi Acara</h2>
             </center>
-            <div class="row justify-content-center mt-4">
-                <div class="col-md-6 col-10 mt-4">
+            <div class="row justify-content-center mt-4 animate__animated animate__slideInLeft wow"data-wow-duration="1s" style="transform-origin: left">
+                <div class="col-md-6 col-10 mt-4 " >
                     <div class="card text-center text-bg-light mb-5">
                         <div class="card-header">Akad Nikah</div>
                         <div class="card-body">
@@ -128,7 +129,7 @@
                         membuka peta</a>
                 </div>
             </div>
-            <div class="row justify-content-center mt-4">
+            <div class="row justify-content-center mt-4 animate__animated animate__slideInRight wow"data-wow-duration="1s" style="transform-origin: right">
                 <div class="col-md-6 col-10 mt-4 mb-5">
                     <div class="card text-center text-bg-light">
                         <div class="card-header">Resepsi</div>
@@ -160,7 +161,7 @@
                         membuka peta</a>
                 </div>
             </div>
-            <div class="row justify-content-center">
+            <div class="row justify-content-center animate__animated animate__slideInUp wow" data-wow-duration="1s" data-wow-delay="0.5s" style="transform-origin: bottom;">
                 <div class="col-md-12 col-10 text-center">
                     <p class="description">Diharapkan untuk tidak salah alamat dan tanggal. Manakala tiba di tujuan
                         namun tidak
@@ -172,7 +173,7 @@
     </section>
 
     <section id="story" class="story">
-        <div class="container">
+        <div class="container animate__animated animate__zoomIn wow" data-wow-duration="1s" data-wow-delay="0.5s">
             <div class="row justify-content-center text-center">
                 <div class="col-lg-8 col-11 mt-4">
                     <img src="img/flower-2-black.png" width="20%">
@@ -243,7 +244,7 @@
     </section>
 
     <section id="gallery" class="gallery">
-        <div class="container">
+        <div class="container animate__animated animate__zoomIn wow">
             <div class="row justify-content-center">
                 <div class="col-md-8 col-10 text-center">
                     <span>Memori Kisah Kami</span>
@@ -334,7 +335,7 @@
             </div>
 
             <form class="row row-cols-md-auto g-3 align-items-center justify-content-center" method="POST"
-                action="https://script.google.com/macros/s/AKfycbyddFbEJRqwEeA6OmZAuNf0jw_B30ZUOS5qSDwlAKV_nurcW7H6osJx2ZWnIeTmPm_35g/exec"
+                action="https://script.google.com/macros/s/AKfycbyjSi2V40nJoYjz8RBjHo7h41fjbcw3HHr0mJYAzVn19v-21_9WRpgVso2_9OaF2COdRg/exec"
                 id="my-form">
                 <div class="col-12">
                     <div class="mb-3">
@@ -393,14 +394,13 @@
         </div>
     </section>
 
-    <!-- <section id="gifts" class="gifts">
-        <div class="container">
+    <section id="gifts" class="gifts">
+        <div class="container animate__animated animate__slideInDown wow" data-wow-duration="1s" data-wow-delay="0.5s" style="transform-origin: top;">
             <div class="row justify-content-center">
                 <div class="col-md-8 col-10 text-center">
                     <span>ungkapan tanda kasih</span>
                     <h2>Kirim Hadiah</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam iure perferendis provident ab
-                        aliquam nemo.
+                    <p>Doa Restu Anda merupakan karunia yang sangat berarti bagi kami. Dan jika memberi adalah ungkapan tanda kasih Anda, Anda dapat memberi kado secara cashless dengan mengirim amplop digital secara transfer pada akun di bawah ini :
                     </p>
                 </div>
             </div>
@@ -409,25 +409,28 @@
                 <div class="col-md-6">
                     <ul class="list-group">
                         <li class="list-group-item">
-                            <div class="fw-bold">BCA</div>
-                            123456789 - SANDHIKA GALIH
+                            <img src="img/Dana.png" alt="Saweria QR" width="150"><br>
+                            0895334905206 - RIZAL FIRZIAWAN SIDIK
                         </li>
-                        <li class="list-group-item">
+                        <!-- <li class="list-group-item">
+                           
+                        </li> -->
+                        <!-- <li class="list-group-item">
                             <div class="fw-bold">MANDIRI</div>
                             987654321 - SANDHIKA GALIH
                         </li>
                         <li class="list-group-item">
                             <div class="fw-bold">Saweria</div>
                             <img src="img/saweria.png" alt="Saweria QR" class="img-thumbnail" width="150">
-                        </li>
+                        </li> -->
                     </ul>
                 </div>
             </div>
         </div>
-    </section> -->
+    </section>
 
     <footer>
-        <div class="container">
+        <div class="container animate__animated animate__fadeIn wow" data-wow-duration="1s" data-wow-delay="0.5s">
             <div class="row">
                 <div class="col text-center">
                     <small class="block">&copy; 2024 Kiki & Iis Wedding. All Rights Reserved.</small>
@@ -447,6 +450,11 @@
             <i class="bi bi-disc"></i>
         </div>
     </div>
+
+    <script src="wow.min.js"></script>
+<script>
+  new WOW().init();
+</script>
 
     <script id="dsq-count-scr" src="//wedding-kiki-iis.disqus.com/count.js" async></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
