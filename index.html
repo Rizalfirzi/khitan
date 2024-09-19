@@ -36,6 +36,38 @@
 </head>
 
 <body>
+    <style>
+        .slot-container {
+            position: relative;
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            height: 100%;
+            overflow: hidden; /* Menyembunyikan bagian gambar yang keluar */
+        }
+    
+        .slot-left,
+        .slot-right {
+            position: absolute;
+            bottom: 0;
+            overflow: hidden; /* Menyembunyikan bagian gambar yang keluar */
+        }
+    
+        .slot-left {
+            left: 0;
+        }
+    
+        .slot-right {
+            right: 0;
+        }
+    
+        .slot-left img,
+        .slot-right img {
+            width: 200px; /* Sesuaikan ukuran gambar */
+            margin-bottom: -50px; /* Menggeser gambar ke bawah untuk menampilkan sebagian */
+        }
+    </style>
+    
 
     <section id="hero"
         class="hero w-100 h-100 p-3 mx-auto text-center d-flex justify-content-center align-items-center text-white">
@@ -62,18 +94,17 @@
                 <div class="col-md-8 text-center">
                     <h2>Acara Tasyakuran Khitan</h2>
                     <h3>Diselenggarakan pada 29 September 2024 di Kabupaten Bandung, Jawa Barat.</h3>
-                    <p>Oleh karena itu, dengan segala hormat, kami bermaksud untuk mengundang Bapak/Ibu, Saudara/i,
-                        untuk hadir
-                        pada acara Tasyakuran Khitan kami. </p>
+                    <p>Oleh karena itu, dengan segala hormat, kami bermaksud untuk mengundang Bapak/Ibu, Saudara/i, untuk hadir
+                        pada acara Tasyakuran Khitan kami.</p>
                 </div>
             </div>
-
+    
             <div class="row couple d-flex justify-content-center text-center">
                 <div class="col-lg-6">
                     <div class="row">
                         <div class="col-12">
                             <h3>M. Revan Azril Hidayat</h3>
-                            <p>Putra Kedua dari Bpk. <br> <b>Fauzy Hidayat</b> <br> dan <br> <b>Ibu Euis Dewi</b></p>
+                            <p>Putra Kedua dari <br> <b>Bpk. Fauzy Hidayat</b> <br> dan <br> <b>Ibu. Euis Dewi</b></p>
                         </div>
                     </div>
                     <div class="row justify-content-center">
@@ -83,8 +114,19 @@
                     </div>
                 </div>
             </div>
+    
+            <!-- Slot untuk gambar di kiri bawah dan kanan bawah -->
+            <div class="slot-container">
+                <div class="slot-left">
+                    <img src="img/download (1).png" alt="Left Image" class="img-fluid">
+                </div>
+                <div class="slot-right">
+                    <img src="img/download.png" alt="Right Image" class="img-fluid">
+                </div>
+            </div>
         </div>
     </section>
+    
 
 
     <section id="info" class="info">
@@ -381,7 +423,7 @@
                     <ul class="list-group">
                         <li class="list-group-item">
                             <img src="img/BCA.png" alt="Saweria QR" width="150"><br>
-                            No rek : 3460603489 - IIS ZAENABIAH
+                            No rek : 3371893731 - FAUZI HIDAYAT
                         </li>
                         <!-- <li class="list-group-item">
                            

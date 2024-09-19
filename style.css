@@ -17,11 +17,22 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url(img/preset45.png);
+  background-image: url(img/evan.png);
   background-size: cover;
   background-position: center;
   z-index: -1;
-  /* filter: grayscale(); */
+  /* filter: grayscale(100%) brightness(0.7);  */
+}
+
+.hero::after {
+  content: '';
+  position: absolute;
+  bottom: 0; /* Gradasi di bagian bawah */
+  left: 0;
+  width: 100%;
+  height: 50%; /* Gradasi setengah dari tinggi elemen */
+  background: linear-gradient(to bottom, transparent, #467fa8); /* Gradasi dari transparan ke biru denim */
+  z-index: -1;
 }
 
 .hero {
@@ -80,25 +91,49 @@ body {
 } */
 
 .home {
-  /* background-image: url(img/bg.png);
-  background-size: cover; */
-  /* min-height: 100vh;
-  margin-top: 0rem; */
+  background-image: url(img/bg.png);
+  background-size: cover;
+  min-height: 100vh;
+  margin-top: 0rem;
   padding-top: 5rem;
   padding-bottom: 5rem;
 }
 
 .home h2,
-.info h2,
 .story h2,
 .gallery h2,
-.rsvp h2,
 .gifts h2 {
   color: #467fa8;
   font-family: 'Sacramento';
   font-size: 5rem;
   font-weight: bold;
 }
+
+
+.info h2 {
+  color: #467fa8; /* Warna teks */
+  font-family: 'Sacramento';
+  font-size: 5rem;
+  font-weight: bold;
+  text-shadow: 
+      -1px -1px 0 #ffffff,  
+      1px -1px 0 #ffffff,
+      -1px 1px 0 #ffffff,
+      1px 1px 0 #ffffff; /* Outline putih di sekeliling teks */
+}
+.rsvp h2 {
+  color: #467fa8; /* Warna teks */
+  font-family: 'Sacramento';
+  font-size: 5rem;
+  font-weight: bold;
+  text-shadow: 
+      -1px -1px 0 #ffffff,  
+      1px -1px 0 #ffffff,
+      -1px 1px 0 #ffffff,
+      1px 1px 0 #ffffff; /* Outline putih di sekeliling teks */
+}
+
+
 
 .home h3 {
   color: #444;
@@ -143,7 +178,7 @@ body {
 }
 
 .info {
-  background-color: var(--bg);
+  background-color: #03254c;
   color: white;
   padding-top: 10rem;
   padding-bottom: 8rem;
@@ -309,7 +344,7 @@ body {
 }
 
 .rsvp {
-  background-color: var(--bg);
+  background-color: #03254c;
 }
 
 .rsvp h2 {
