@@ -222,6 +222,15 @@ body {
   padding-top: 10rem;
   padding-bottom: 8rem;
 }
+.story{
+  background-image: url(img/bg.png);
+  background-size: cover;
+  min-height: 100vh;
+  margin-top: 0rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+
+}
 
 .story span,
 .gallery span,
@@ -410,6 +419,14 @@ footer li {
   justify-content: center;
   align-items: center;
   line-height: 0;
+}
+.gifts{
+  background-image: url(img/bg.png);
+  background-size: cover;
+  min-height: 100vh;
+  margin-top: 0rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 
 @keyframes rotating {
