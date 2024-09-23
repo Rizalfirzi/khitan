@@ -225,7 +225,7 @@ body {
 .story{
   background-image: url(img/bg.png);
   background-size: cover;
-  min-height: 100vh;
+  /* min-height: 100vh; */
   margin-top: 0rem;
   padding-top: 5rem;
   padding-bottom: 5rem;
@@ -423,7 +423,7 @@ footer li {
 .gifts{
   background-image: url(img/bg.png);
   background-size: cover;
-  min-height: 100vh;
+  /* min-height: 100vh; */
   margin-top: 0rem;
   padding-top: 5rem;
   padding-bottom: 5rem;
